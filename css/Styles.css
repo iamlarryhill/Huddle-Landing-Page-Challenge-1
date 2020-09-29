@@ -1,0 +1,158 @@
+body {
+  background-color: hsl(257, 40%, 49%);
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFF;
+  position: relative;
+}
+
+.bg1 {
+  display: block;
+  position: absolute;
+  width: 95%;
+  height: 100%;
+}
+
+.bg2 {
+  display: none;
+  position: absolute;
+  width: 100%;
+}
+
+.container {
+  margin: 0 5rem;
+  height: auto;
+  padding-bottom: 7.5rem;
+  position: relative;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+}
+
+.box {
+  padding-top: 6.75rem;
+}
+
+.image-left {
+  width: 95%;
+}
+
+.logo {
+  padding: 3rem 0 0;
+}
+
+.box2 {
+  padding-top: 10rem;
+  padding-left: 4rem;
+  padding-right: 7.5rem;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+button {
+  margin-top: 2rem;
+  width: 50%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 100px;
+  font-family: 'Open Sans', sans-serif;
+  color: hsl(257, 40%, 49%);
+  font-size: 1rem;
+  box-shadow: 3px 3px 5px hsl(257, 40%, 30%);
+}
+
+button:hover {
+  background-color: rgb(223, 82, 213, 0.6);
+  color: #FFF;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: hsl(257, 40%, 30%);
+}
+
+footer {
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+i {
+  padding: 0.5rem;
+  font-size: 30px;
+}
+
+i:hover {
+  color: rgb(223, 82, 213, 0.6);
+}
+
+.social {
+  position: absolute;
+  right: 7.5rem;
+  padding-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  .logo-image {
+    width: 50%;
+  }
+
+  .bg1 {
+    display: none;
+  }
+
+  .bg2 {
+    display: block;
+  }
+
+  .container {
+    height: auto;
+    width: 90%;
+    margin: auto;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .box1 {
+    padding-top: 4rem;
+  }
+
+  .box2 {
+    grid-row: 2;
+    padding: 2.5rem 0;
+    text-align: center;
+  }
+
+  .box2 p {
+    font-size: 1.25rem;
+  }
+
+  .image-left {
+    width: 100%;
+  }
+
+  button {
+    width: 60%;
+  }
+
+  .social {
+    position: static;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+}
