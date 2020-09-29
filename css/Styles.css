@@ -59,6 +59,7 @@ button {
   margin-top: 2rem;
   width: 50%;
   padding: 0.8rem;
+  background-color: #FFF;
   border: none;
   border-radius: 100px;
   font-family: 'Open Sans', sans-serif;
@@ -82,7 +83,7 @@ a:hover {
 }
 
 footer {
-  font-size: 12px;
+  font-size: 10px;
   position: absolute;
   bottom: 0;
   left: 0;
